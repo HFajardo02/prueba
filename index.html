@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Nombre del sitio-->
+    <title>Natural Cream</title>
+</head>
+
+<body>
+    <header class="header">
+        <!--Contenido del Header-->
+
+        <!--Contenido Menu Tipo Hamburguesa-->
+        <nav class="nav">
+            <ul class="enlaces">
+                <li class="enlace"><a href="index.html"> Inicio</a></li>
+                <li class="enlace"><a href="./src/assets/productos.html"> Productos</a></li>
+                <li class="enlace"><a href="index.html"><img src="./src/images/logotipo.png" alt="Natural Cream"></a></li>
+                <li class="enlace"><a href="./src/assets/nosotros.html"> Nosotros</a></li>
+                <li class="enlace"><a href="./src/assets/contacto.html"> Contacto</a></li>
+                <li class="enlace" ><a href="./src/assets/carrito.html"><img src="./src/images/cart.png" alt="Carrito de compras"></a></li>
+                <li class="enlace" ><a href="./src/assets/usuarios.html"><img src="./src/images/user-icon.png" alt="Acceso a usuarios"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <main>
+
+        <!--Carrusel-->
+        
+        <section>
+            <img class="carrusel" src="./src/images/car01.jpg" alt="Crema de ingredientes naturales">
+            <img class="carrusel" src="./src/images/car02.png" alt="Linea de productos naturales">
+            <img class="carrusel" src="./src/images/car03.jpg" alt="Cremas Faciales - Skincare">
+        </section>
+
+        <!--NUEVO CARRUSEL
+        <section>
+            <div class="carrusel-container">
+                <ul class="carrusel">
+                    <li id="slider1"> <img src="./src/images/car01.jpg" alt="Crema de ingredientes naturales"></li>
+                    <li id="slider2"> <img src="./src/images/car02.png" alt="Linea de productos naturales"></li>
+                    <li id="slider3"> <img src="./src/images/car03.jpg" alt="Cremas Faciales - Skincare"></li>
+                </ul>
+                
+                <ul class="menu-slider">
+                    <li> <a href="#slider1">1</a> </li>
+                    <li> <a href="#slider2">2</a> </li>
+                    <li> <a href="#slider3">3</a> </li>
+                </ul>
+            </div>
+        </section>
+        FINALIZA NUEVO CARRUSEL-->
+
+        <!--Titulo Central Inicio-->
+        <section>
+            <h1>CONOCE NUESTROS PRODUCTOS</h1>
+        </section>
+
+        <!--Lineas de productos-->
+
+        <!--LINEA 1-->
+        <section>
+            <img class="fondolineas" src="./src/images/fondolinea1.jpg" alt="Linea de productos 1">
+            <img class="fondoconproducto" src="./src/images/productolinea1.png" alt="Producto de la linea 1">
+            <div class="titulo-lineas">
+                <h2>LINEA DE PRODUCTO 1</h2>
+            </div>
+            <div class="texto-titulo-lineas">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div>
+                <button class="button" onclick="window.location.href='./src/assets/linea1.html'">Ver Productos</button>
+            </div>
+        </section>
+
+        <!--LINEA 2-->
+        <section>
+            <img class="fondolineas" src="./src/images/fondolinea2.jpg" alt="Linea de productos 2">
+            <img class="fondoconproducto" src="./src/images/productolinea2.png" alt="Producto de la linea 2">
+            <div class="titulo-lineas">
+                    <h2>LINEA DE PRODUCTO 2</h2>
+            </div>
+            <div class="texto-titulo-lineas">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div>
+                <button class="button" onclick="window.location.href='./src/assets/linea2.html'">Ver Productos</button>
+            </div>
+        </section>
+
+        <!--LINEA 3-->
+        <section>
+            <img class="fondolineas" src="./src/images/fondolinea3.jpg" alt="Linea de productos 3">
+            <img class="fondoconproducto" src="./src/images/productolinea3.png" alt="Producto de la linea 3">
+            <div class="titulo-lineas">
+                <h2>LINEA DE PRODUCTO 3</h2>
+            </div>
+            <div class="texto-titulo-lineas">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div>
+                <button class="button" onclick="window.location.href='./src/assets/linea3.html'">Ver Productos</button>
+            </div>
+        </section>
+
+        <!--LINEA 4-->
+        <section>
+            <img class="fondolineas" src="./src/images/fondolinea4.jpg" alt="Linea de productos 4">
+            <img class="fondoconproducto" src="./src/images/productolinea4.png" alt="Producto de la linea 4">
+            <div class="titulo-lineas">
+                <h2>LINEA DE PRODUCTO 4</h2>
+            </div>
+            <div class="texto-titulo-lineas">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div>
+                <button class="button" onclick="window.location.href='./src/assets/linea4.html'">Ver Productos</button>
+            </div>
+        </section>
+
+        <!--Titulo Central para Tienda-->
+        <section>
+                <h3 class="h3">TIENDA</h3>
+        </section>
+
+        <!--PRODUCTOS... Agregar al carrito-->
+        <section class="grid-container">
+            <div class="grid-item">
+                <img class="productos-carrito" src="./src/images/productolinea1.png" alt="Producto de la linea 1">
+                <div class="nombre-producto">
+                    Producto Linea 1
+                </div>
+                <div class="precio-producto">
+                    $100.00 MXN
+                </div>
+                <button class="button" onclick="window.location.href='./src/assets/carrito.html'">Agregar al carrito</button>
+            </div>
+            <div class="grid-item">
+                <img class="productos-carrito" src="./src/images/productolinea2.png" alt="Producto de la linea 2">
+                <div class="nombre-producto">
+                    Producto Linea 2
+                </div>
+                <div class="precio-producto">
+                    $100.00 MXN
+                </div>
+                <button class="button" onclick="window.location.href='./src/assets/carrito.html'">Agregar al carrito</button>
+            </div>
+            <div class="grid-item">
+                <img class="productos-carrito" src="./src/images/productolinea3.png" alt="Producto de la linea 3">
+                <div class="nombre-producto">
+                    Producto Linea 3
+                </div>
+                <div class="precio-producto">
+                    $100.00 MXN
+                </div>
+                <button class="button" onclick="window.location.href='./src/assets/carrito.html'">Agregar al carrito</button>
+            </div>
+            <div class="grid-item">
+                <img  class="productos-carrito" src="./src/images/productolinea4.png" alt="Producto de la linea 4">
+                <div class="nombre-producto">
+                    Producto Linea 4
+                </div>
+                <div class="precio-producto">
+                    $100.00 MXN
+                </div>
+                <button class="button" onclick="window.location.href='./src/assets/carrito.html'">Agregar al carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!--Contenido del Footer-->
+
+        <!--Logotipo de la empresa para footer-->
+        <div>
+            <a href="index.html"><img src="./src/images/logotipo.png" alt="Natural Cream"></a>
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="./src/assets/productos.html"> Tienda</a></li>
+                    <li><a href="./src/assets/contacto.html"> Contacto</a></li>
+                    <li><a href="./src/assets/carrito.html"> Ver carrito</a></li>
+                    <li><a href="./src/assets/nosotros.html"> Nosotros</a></li>
+                </ul>
+            </nav>    
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="./src/assets/faqs.html"> Preguntas Frecuentes</a></li>
+                    <li><a href="./src/assets/usuarios.html"> Acceso a usuarios</a></li>
+                    <li><a href="./src/assets/politicas.html"> Políticas de privacidad</a></li>
+                    <li><a href="./src/assets/terminos.html"> Términos y condiciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
