@@ -12,10 +12,9 @@ body {
     font-size: 16px;
 }
 
-/*Clase para el Header*/
+/*Header*/
 .header {
     width: 100%;
-    position: fixed;
     top: 0px;
     left: 0px;
     display: flex;
@@ -23,6 +22,7 @@ body {
     z-index: 0.625em;
 }
 
+/*Menu*/
 .nav {
     width: 100%;
     position: fixed;
@@ -36,11 +36,13 @@ body {
     padding-top: 0.625em;
 }
 
+/*Enlaces del menu*/
 .enlaces {
     list-style: none;
     display: flex;
 }
 
+/*Formato enlaces menu*/
 .enlace a {
     color: rgb(255, 255, 255);
     opacity: 0.5;
@@ -53,80 +55,18 @@ body {
     font-size: 1.25em;
 }
 
+/*Formato del Hover en el menu*/
 .enlace a:hover{
     opacity: 1;
 }
 
+/*Carrusel*/
 .carrusel {
     width: 100%;
-    height: 600;
+    height: 37.5em;
 }
 
-/*AQUI EMPIEZA EL NUEVO CARRUSEL*/
-
-/*.carrusel-container {
-    margin: auto;
-    background-color: white;
-    width: 100%;
-    padding: 30px;
-}
-
-ul.carrusel {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-}
-
-ul.carrusel li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background:#fff;
-}
-  
-ul.carrusel li img{
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-  
-ul.carrusel li:first-child {
-    opacity: 1;
-}
-  
-ul.carrusel li:target {
-    opacity: 1;
-}
-  
-.menu-slider {
-    text-align: center;
-    margin: 20px;
-}
-  
-.menu-slider li {
-    display: inline-block;
-    text-align: center;
-}
-  
-.menu-slider li a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: rgb(143, 56, 143);
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    border-radius: 100%;
-}*/
-
-/*AQUI ACABA EL NUEVO CARRUSEL*/
-
+/*Formato del H1*/
 h1 {
     background-color: rgb(176, 101, 179);
     color: white;
@@ -136,6 +76,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Formato del H3*/
 h3 {
     background-color: rgb(176, 101, 179);
     color: white;
@@ -148,6 +89,7 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Titulo para las lineas de productos*/
 .titulo-lineas {
     position: relative;
     display: inline-block;
@@ -157,6 +99,7 @@ h3 {
     font-size: 1.875em;
 }
 
+/*Texto que se incluye en las lineas de productos*/
 .texto-titulo-lineas {
     position: relative;
     display: inline-block;
@@ -166,6 +109,7 @@ h3 {
     font-size: 1.25em;
 }
 
+/*Imagen de fondo que lleva un productos por linea*/
 .fondoconproducto {
     display: inline-block;
     width: 15.625em;
@@ -176,6 +120,7 @@ h3 {
     margin-left: 6.25em;
 }
 
+/*Formato del boton*/
 .button {
     background-color: rgb(176, 101, 179);
     border: none;
@@ -188,23 +133,28 @@ h3 {
     font-size: 1em;
 }
 
+/*Transicion en el boton*/
 .button:hover{
     background-color: #e97ce9;
+    transition: all 0.5s;
     color: white;
 }
 
+/*Imagen para el fondo de las lineas de productos*/
 .fondolineas {
     width: 100%;
     height: 25em;
     position: absolute;
     opacity: 0.5;
 }
-
+  
+/*Tienda*/
 .tienda{
     display: flex;
     justify-content: space-around;
 }
 
+/*Posicion de productos*/
 .productos-carrito {
     position: relative;
     padding-top: 7.813em;
@@ -212,12 +162,14 @@ h3 {
     height: 18.75em;
 }
 
+/*Posicion del nombre y del precio de los productos*/
 .nombre-producto, .precio-producto{
     color: white;
     /*text-align: center;*/
     font-size: 1em;
 }
 
+/*Footer*/
 .footer { 
     padding-top: 3.125em;
     padding-bottom: 3.125em;
@@ -228,12 +180,14 @@ h3 {
     justify-content: space-around;
 }
 
+/*Enlaces del Footer*/
 footer a{
     color: white;
     list-style: none;
     text-decoration: none;
 }
 
+/*Imagen central de cada pagina*/
 .imagen-central{
     display: absolute;
     margin-top: 9.375em;
@@ -242,6 +196,7 @@ footer a{
     opacity: 0.5;
 }
 
+/*Titulo de la imagen central*/
 .titulo-imagen-central{
     display: inline-block;
     position: relative;
@@ -251,6 +206,7 @@ footer a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Descripcion de la imagen central*/
 .texto-imagen-central{
     display: inline-block;
     display: flex;
@@ -260,6 +216,7 @@ footer a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Formulario de contacto*/
 .formulario{
     display: flex;
     justify-content: space-between;
@@ -268,31 +225,37 @@ footer a{
     padding-top: 1.875em;
 }
 
+/*Formato Preguntas Frecuentes*/
 .pregunta{
     color: rgb(37, 37, 37);
 }
 
+/*Formato video*/
 .video{
     padding-top: 6.25em;
 }
 
+/*Aplicar Grids*/
 .grid-container{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: repeat(4, 1fr);
 }
 
+/*Grid para las lineas de productos*/
 .grid-container-lineas{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: repeat(3, 1fr);
 }
 
+/*Grid para los elementos*/
 .grid-item{
     align-self: center;
     text-align: center;
 }
 
+/*Media Query*/
 @media only screen and (max-width: 900px){
     body{
         font-size: 14px;
@@ -312,6 +275,13 @@ footer a{
         font-size: 12px;
     }
 
+    .productos-carrito {
+        display: flex;
+        padding-top: 7.813em;
+        width: 12.5em;
+        height: 18.75em;
+    }
+
     .titulo-lineas{
         font-size: 12px;
     }
@@ -319,6 +289,13 @@ footer a{
     .fondoconproducto{
         width: 10em;
         height: 10em;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
